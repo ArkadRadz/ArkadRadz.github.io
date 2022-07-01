@@ -35,12 +35,14 @@
 }
 
 .cv-name-background {
-    @apply flex flex-row items-center rounded-3xl rounded-tl-[100px]
-    rounded-bl-[100px] bg-slate-200 dark:bg-gray-700;
+    @apply flex flex-row flex-wrap md:flex-nowrap items-center rounded-3xl sm:rounded-tl-[100px]
+    justify-center md:justify-start sm:max-w-fit sm:mx-auto py-4 sm:py-0
+    sm:rounded-bl-[100px] bg-slate-200 dark:bg-gray-700;
 }
 
 .cv-grid-container {
-    @apply grid grid-flow-row justify-center items-center py-4 max-w-xl;
+    @apply grid grid-flow-row justify-center items-center py-4 max-w-xl
+    justify-center items-center;
 }
 
 .cv-flex-container {
