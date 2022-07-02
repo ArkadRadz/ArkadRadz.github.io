@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .homepage-element {
-    @apply px-2 text-center text-3xl dark:text-gray-200 text-black;
+    @apply px-2 text-center text-3xl dark:text-gray-300 text-black dark:hover:text-white 
+    hover:font-medium hover:text-gray-500 transition-all ease-linear;
 }
 
 .homepage-divider {
